@@ -1,0 +1,5 @@
+machine_id,planned,actual
+CNC-01,100,95
+CNC-02,120,N/A
+,80,75
+WELD-01,200,0

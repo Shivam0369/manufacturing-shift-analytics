@@ -1,0 +1,3 @@
+machine_id,planned,actual,failure_reason
+CNC-02,120,N/A,Corrupt non-integer number
+,80,75,Missing machine_id

@@ -1,0 +1,45 @@
+{
+    "clean_records": [
+        {
+            "machine_id": "CNC-01",
+            "planned": 100,
+            "actual": 95,
+            "adherence_pct": 95.0
+        },
+        {
+            "machine_id": "WELD-01",
+            "planned": 200,
+            "actual": 0,
+            "adherence_pct": 0.0
+        }
+    ],
+    "quarantined_rows": [
+        {
+            "machine_id": "CNC-02",
+            "planned": "120",
+            "actual": "N/A",
+            "failure_reason": "Corrupt non-integer number"
+        },
+        {
+            "machine_id": "",
+            "planned": "80",
+            "actual": "75",
+            "failure_reason": "Missing machine_id"
+        }
+    ],
+    "rejected_count": 2,
+    "total_valid_actual": 95,
+    "shift_metrics": {
+        "total_planned": 300,
+        "total_actual": 95,
+        "overall_adherence_pct": 31.67,
+        "machine_production": {
+            "CNC-01": 95,
+            "WELD-01": 0
+        },
+        "top_performer_machine": "CNC-01",
+        "below_target_machines": [
+            "WELD-01"
+        ]
+    }
+}
